@@ -8,7 +8,7 @@ var fizzBuzz = function(n) {
     var counter = 1;
     while(counter < n+1) {
     answer.push(String(counter));
-    counter++;
+    counter+=1;
     }
     for(let i = 0; i < answer.length; i++) {
     switch(true) {
